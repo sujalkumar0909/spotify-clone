@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+video{
+    width:100%;
+}
+header{
+    background:black;
+    width:100vw;
+    color:white;
+    position:fixed;
+    z-index:10;
+}
+a{
+    color:white;
+    text-decoration:none;
+    position:relative;
+    left:33px;
+    padding:23px;
+    margin-top:33px;
+    position: relative;
+    bottom: 18px;
+}
+nav{
+    display:inline-block;
+}
+img{
+    width:8vw
+}
+.logo{
+    display:inline-flex;
+    align-items:center;
+    font-weight:bold;
+}
