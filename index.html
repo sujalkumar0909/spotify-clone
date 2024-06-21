@@ -14,11 +14,25 @@
         <nav><a href="./About.html">About</a></nav>
     </header>
     <main>
-    <video src="bg.mp4" autoplay loop></video>
-    <audio src="music.mp3" controls>Music</audio>
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sound</h1>
+            <div class="songItem">
+                <img src="https://t3.ftcdn.net/jpg/06/35/25/68/360_F_635256827_KKLD6dXXWuHyGvRE8uic9QmVqpURX4H2.jpg" alt="">
+                <span id="song">Song</span>
+                <i class="fa-solid fa-play" id=opt1></i>
+            </div>
+            <div class="songbanner"></div>
+        </div>
     </main>
     <footer>
-        
+        <div class="bottom">
+            <input type="range" name="range" id="myprogressbar" min="0" max="100">
+            <i class="fa-solid fa-forward" id=opt></i>
+            <i class="fa-solid fa-play" id=opt></i>
+            <i class="fa-solid fa-backward" id=opt></i>
+        </div>
     </footer>
 </body>
+<script src="https://kit.fontawesome.com/3b582b5bf5.js" crossorigin="anonymous"></script>
+<script src="logic.js"></script>
 </html>

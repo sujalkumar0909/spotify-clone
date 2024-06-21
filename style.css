@@ -2,14 +2,25 @@
     margin: 0;
     padding: 0;
 }
+img{
+    /* margin:20px; */
+    padding-right:30px;
+    border-radius:103px;
+}
 video{
-    width:100%;
+    height:220px;
+    margin:230px;
+    position:relative;
+
+    /* left:px; */
+    /* opacity:0.5; */
 }
 header{
     background:black;
+    height:83px;
     width:100vw;
     color:white;
-    position:fixed;
+    /* position:fixed; */
     z-index:10;
 }
 a{
@@ -37,3 +48,52 @@ audio{
     position:relative;
     bottom:490px;
 }
+#opt1{
+    position:relative;
+    left:20px;
+    top:-37px;
+}
+#song{
+    position:relative;
+    top:-37px;
+}
+body{
+    background-color: burlywood;
+}
+main{
+    min-height:66vh;
+    width:80vw;
+    margin:5vh 10vw;
+    background-color: black;
+    color:white;
+    display:inline-flex;
+}
+
+h1{
+    font-size:20px;
+    margin:10px;
+}
+footer{
+    position:sticky;
+    background-color: black;
+    height:60px;
+    width:100vw;
+    display:inline-flex;
+    /* align-items:center; */
+    justify-content:center;
+    padding-top:15px;
+}
+input{
+    width:80vw;
+}
+i{
+    color:white;
+    cursor:pointer;
+}
+#opt{
+    position:relative;
+    right:50%;
+    top:3vh;
+    font-weight:bolder;
+    font-size:20px;
+ }
